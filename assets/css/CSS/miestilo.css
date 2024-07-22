@@ -1,0 +1,101 @@
+
+
+
+body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.centrado {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+header {
+    background-color: #69bd45;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+
+.container_head{
+    max-width: 100%; /* Ajusta el ancho máximo del contenedor al 100% */
+    padding: 0 15px; /* Añade relleno opcional para evitar que los contenidos se peguen a los bordes */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    box-sizing: border-box; /* Incluye padding y border dentro del ancho y alto total */
+    }
+
+.icon-talento {
+    max-width: 45%; /* Ajusta el ancho máximo al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    display: block; /* Para asegurar que la imagen se comporte correctamente */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+    
+
+section {
+    padding: 20px; /* espaciado para la sección de 20 pixeles */}
+
+footer {
+    background-color: #4caf50; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0; }
+
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; }
+
+.footer .social-icons {
+    display: flex;  /* Utilizamos flexbox para alinear los íconos horizontalmente */
+    align-items: center;  /* Centramos verticalmente los íconos */
+    justify-content: center;
+    }
+    
+.footer .social-icon {
+    display: inline-block;  /* Asegura que los íconos se muestren en línea */
+    }
+    
+    .footer .social-icon img {
+    width: 50px;  /* Establece el ancho de la imagen a 50px */
+    height: 50px; /* Establece la altura de la imagen a 50px */
+    margin-right: 10px; /* Espacio entre los íconos (opcional, ajustable según tu preferencia) */
+    }
+
+nav {
+    background-color: #4caf50;
+    padding: 10px;}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;}
+
+nav ul li a:hover {
+    background-color: #2f8247;
+    }
+    
+    /* Estilos para las imágenes */
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border: 1px solid #69bd45;
+        border-radius: 10px;
+        }
